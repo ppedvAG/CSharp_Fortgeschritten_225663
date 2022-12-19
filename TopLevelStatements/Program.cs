@@ -1,0 +1,1 @@
+﻿Console.WriteLine(args); //Args wie bei Main Methode
