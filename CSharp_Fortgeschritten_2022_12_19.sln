@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TopLevelStatements", "TopLe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegatesEvents", "DelegatesEvents\DelegatesEvents.csproj", "{2C0F26DE-027B-4792-BF42-59DC95E3E19D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generics\Generics.csproj", "{9C818AE9-8F47-4703-8A3D-54F635335AA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generics", "Generics\Generics.csproj", "{9C818AE9-8F47-4703-8A3D-54F635335AA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serialisierung", "Serialisierung\Serialisierung.csproj", "{FCD9BE99-1EEE-47E8-AD97-40B7EBAD13C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serialisierung", "Serialisierung\Serialisierung.csproj", "{FCD9BE99-1EEE-47E8-AD97-40B7EBAD13C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multithreading", "Multithreading\Multithreading.csproj", "{041B6F71-EB47-46D0-BD3C-4B848E652714}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{FCD9BE99-1EEE-47E8-AD97-40B7EBAD13C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCD9BE99-1EEE-47E8-AD97-40B7EBAD13C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCD9BE99-1EEE-47E8-AD97-40B7EBAD13C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{041B6F71-EB47-46D0-BD3C-4B848E652714}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{041B6F71-EB47-46D0-BD3C-4B848E652714}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{041B6F71-EB47-46D0-BD3C-4B848E652714}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{041B6F71-EB47-46D0-BD3C-4B848E652714}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
