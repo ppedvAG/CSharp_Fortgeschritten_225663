@@ -39,9 +39,10 @@ internal class Program
 		Console.WriteLine(sw4.ElapsedMilliseconds); //4s
 
 		//Kurzform
+		Task<Toast> t2 = ToastAsync();
 		Tasse t3 = await GeschirrAsync();
 		Kaffee k2 = await KaffeeAsync(t3);
-		Toast t2 = await ToastAsync();
+		Toast t4 = await t2;
 	}
 
 	static void Toast()
